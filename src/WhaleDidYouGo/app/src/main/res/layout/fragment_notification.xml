@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/fragment_vertical_margin"
+    android:paddingBottom="@dimen/fragment_vertical_margin"
+    android:paddingLeft="@dimen/fragment_horizontal_margin"
+    android:paddingRight="@dimen/fragment_horizontal_margin">
+
+    <!-- Start: Accelerometer information area -->
+    <RelativeLayout
+        android:id="@+id/layout_notification_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_status_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/title_accelerometer_status" />
+
+        <TextView
+            android:id="@+id/txt_x_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_status_title"
+            android:textSize="18sp"
+            android:text="@string/title_accelerometer_x" />
+        <TextView
+            android:id="@+id/txt_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_status_title"
+            android:layout_toEndOf="@id/txt_x_title"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:text="@string/sensor_default_value" />
+
+        <TextView
+            android:id="@+id/txt_y_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_x_title"
+            android:textSize="18sp"
+            android:text="@string/title_accelerometer_y" />
+        <TextView
+            android:id="@+id/txt_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_x_title"
+            android:layout_toEndOf="@id/txt_y_title"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:text="@string/sensor_default_value" />
+
+        <TextView
+            android:id="@+id/txt_z_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_y_title"
+            android:textSize="18sp"
+            android:text="@string/title_accelerometer_z" />
+        <TextView
+            android:id="@+id/txt_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_y_title"
+            android:layout_toEndOf="@id/txt_z_title"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:text="@string/sensor_default_value" />
+
+        <TextView
+            android:id="@+id/txt_sensorReader_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_z_title"
+            android:textSize="18sp"
+            android:text="@string/title_accelerometer_sum" />
+        <TextView
+            android:id="@+id/txt_sensorReader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_z_title"
+            android:layout_toEndOf="@id/txt_sensorReader_title"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:text="@string/sensor_default_value" />
+
+        <TextView
+            android:id="@+id/txt_lat_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_sensorReader_title"
+            android:textSize="18sp"
+            android:text="@string/title_accelerometer_lat" />
+        <TextView
+            android:id="@+id/txt_lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_sensorReader_title"
+            android:layout_toEndOf="@id/txt_lat_title"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:text="@string/sensor_default_value" />
+
+        <TextView
+            android:id="@+id/txt_lng_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_lat_title"
+            android:textSize="18sp"
+            android:text="@string/title_accelerometer_lng" />
+        <TextView
+            android:id="@+id/txt_lng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_lat_title"
+            android:layout_toEndOf="@id/txt_lng_title"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:text="@string/sensor_default_value" />
+
+        <TextView
+            android:id="@+id/txt_address_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_lng_title"
+            android:textSize="18sp"
+            android:text="@string/title_accelerometer_address" />
+        <TextView
+            android:id="@+id/txt_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_lng_title"
+            android:layout_toEndOf="@id/txt_address_title"
+            android:textSize="18sp"
+            android:text="@string/sensor_null_value" />
+    </RelativeLayout>
+    <!-- End: Accelerometer information area -->
+
+    <LinearLayout
+        android:id="@+id/layout_notification_switch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/layout_notification_information"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@color/colorThird">
+
+        <TextView
+            android:id="@+id/txt_notification_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/title_notification_switch"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="50dp" />
+
+        <Switch
+            android:id="@+id/btn_notification_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="50dp"
+            android:theme="@style/NotificationSwitchStyle"
+            android:textOff="@string/notification_switch_off"
+            android:textOn="@string/notification_switch_on" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_notification_contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_notification_switch"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_add_caretaker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_button_margin"
+            android:layout_marginRight="@dimen/login_button_margin"
+            android:layout_marginTop="@dimen/login_button_margin"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:drawableStart="@drawable/ic_person_add_black_24dp"
+            android:textSize="18sp"
+            android:text="@string/title_caretaker_set" />
+
+        <Button
+            android:id="@+id/btn_list_caretaker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_button_margin"
+            android:layout_marginRight="@dimen/login_button_margin"
+            android:layout_marginTop="@dimen/login_button_margin"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:drawableStart="@drawable/ic_person_pin_black_24dp"
+            android:textSize="18sp"
+            android:text="@string/title_caretaker_show" />
+    </LinearLayout>
+</RelativeLayout>

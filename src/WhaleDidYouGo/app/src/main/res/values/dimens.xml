@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- CrashScreen Activity -->
+    <dimen name="restart_button_margin">16dp</dimen>
+
+    <!-- SplashScreen Activity and Login Activity -->
+    <dimen name="image_header_dimen">100dp</dimen>
+    <dimen name="image_header_top_margin">50dp</dimen>
+    <dimen name="login_layout_padding">8dp</dimen>
+    <dimen name="login_layout_padding_top">36dp</dimen>
+    <dimen name="login_button_margin">16dp</dimen>
+
+    <!-- Main Activity -->
+    <dimen name="fab_margin_original">16dp</dimen>
+    <dimen name="fab_margin">64dp</dimen>
+
+    <!-- Fragment -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="drawable_padding">10dp</dimen>
+
+    <!-- View -->
+    <dimen name="view_padding">10dp</dimen>
+    <dimen name="view_margin">8dp</dimen>
+</resources>

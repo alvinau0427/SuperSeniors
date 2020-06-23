@@ -1,0 +1,184 @@
+<resources>
+    <!-- Application String -->
+    <string name="app_name">Super Seniors</string>
+    <string name="action_logout">登出</string>
+    <string name="action_settings">設定</string>
+    <string name="action_language_english">英文</string>
+    <string name="action_language_chinese">中文 (繁體)</string>
+    <string name="action_about">關於</string>
+
+    <!-- Foreground Service -->
+    <string name="app_running_title">Super Seniors 正在運行中</string>
+    <string name="app_running_context">觸摸以獲取更多信息</string>
+
+    <!-- Crash Screen -->
+    <string name="title_crash_screen">錯誤頁面</string>
+    <string name="error_title">出問題了！</string>
+    <string name="error_occurred">應用程式發生錯誤，非常抱歉。</string>
+    <string name="error_details">錯誤詳情：</string>
+    <string name="unknown_exception">未知異常</string>
+    <string name="restart_app">重新啟動應用程式</string>
+    <string name="close_app">關閉應用程式</string>
+
+    <!-- Login Activity -->
+    <string name="title_login_username">用戶名稱</string>
+    <string name="title_login_password">密碼</string>
+    <string name="login_button">登入</string>
+    <string name="logout_button">登出</string>
+    <string name="google_login_button">使用 Google 帳戶登入</string>
+    <string name="login_success_message">登入成功</string>
+    <string name="login_fail_message">登入失敗</string>
+    <string name="logout_success_message">登出成功</string>
+    <string name="connection_success_message">FireBase 連接成功</string>
+    <string name="connection_fail_message">FireBase 連接失敗</string>
+    <string name="account_fail_message">FireBase 帳號問題</string>
+
+    <!-- Action Bar -->
+    <string name="action_logout_confirm_message">"是否登出系統？"</string>
+    <string name="action_logout_confirm_yes">"是"</string>
+    <string name="action_logout_confirm_no">"否"</string>
+    <string name="action_logout_cancel">行動取消</string>
+    <string name="title_settings">用戶設定</string>
+    <string name="action_about_message">開發團隊: Whale Did You Go?</string>
+    <string name="title_about">關於此應用程式</string>
+    <string name="title_about_info">應用程式介紹：\n針對擁有長者的家庭而開發的應用程式，以行事曆，一鍵撥號和實時監控用戶是否發生跌倒的三大功能為主。如果用戶發生跌倒，手機會發出警報求助，以便獲得及時的救助。</string>
+    <string name="title_about_app">Whale Did You Go? - Super Senior</string>
+    <string name="title_about_version">版本：alpha 1.0.0</string>
+
+    <!-- Bottom Navigation Activity-->
+    <string name="title_schedule">行事曆</string>
+    <string name="title_dashboard">一鍵聯絡</string>
+    <string name="title_notification">跌倒偵測</string>
+
+    <!-- Schedule Fragment : Daily Calendar -->
+    <string name="title_insert">新增活動</string>
+    <string name="title_update">更改活動</string>
+    <string name="event_title">主題: </string>
+    <string name="event_starttime">開始時間: </string>
+    <string name="event_endtime">結束時間: </string>
+    <string name="event_startdate">開始日期: </string>
+    <string name="event_enddate">結束日期: </string>
+    <string name="event_selected_starttime">已選擇的開始時間: </string>
+    <string name="event_selected_endtime">已選擇的結束時間: </string>
+    <string name="event_selected_startdate">已選擇的開始日期: </string>
+    <string name="event_selected_enddate">已選擇的結束日期: </string>
+    <string name="change_calendar">變更行事歷</string>
+    <string name="refresh">重新整理</string>
+    <string name="event_select_starttime">選擇開始時間</string>
+    <string name="event_select_endtime">選擇結束時間</string>
+    <string name="event_select_startdate">選擇開始日期</string>
+    <string name="event_select_enddate">選擇結束日期</string>
+    <string name="event_done_button">完成</string>
+    <string name="event_delete_button">刪除</string>
+    <string name="event_update_button">更改</string>
+    <string name="event_yes_button">是</string>
+    <string name="event_No_button">否</string>
+    <string name="event_ok_button">確定</string>
+    <string name="event_cancel_button">取消</string>
+    <string name="event_des">內容:</string>
+    <string name="no_event">沒有活動!</string>
+    <string name="no_permission">沒有權限!</string>
+    <string name="event_insert_success">新增成功!</string>
+    <string name="event_update_success">更改成功!</string>
+    <string name="event_delete_success">刪除成功!</string>
+    <string name="done_question">你決定你已經完成此活動?</string>
+    <string name="done_message">做得好!</string>
+    <string name="delete_question">你決定你要刪除此活動?</string>
+    <string name="datetime_error">時間或日期錯誤!</string>
+    <string name="cannot_find_calendar">找不到行事歷!</string>
+    <string name="done_sms">老人家已完成此活動</string>
+    <string name="no_contact_person">沒有聯絡人!</string>
+    <string name="event_already_done">此活動已完成</string>
+    <string name="event_time_am">上午</string>
+    <string name="event_time_pm">下午</string>
+
+    <!-- Dashboard Fragment : Single Touch Dialing -->
+    <string name="title_create_contact">加入聯絡人</string>
+    <string name="title_contact_name_1">聯絡人 1</string>
+    <string name="title_contact_name_2">聯絡人 2</string>
+    <string name="title_contact_name_3">聯絡人 3</string>
+    <string name="title_contact_person">聯絡人:</string>
+    <string name="title_contact_number">電話號碼:</string>
+    <string name="title_contact_confirm">確定</string>
+    <string name="title_contact_reset">重設</string>
+    <string name="title_contact_add">新增</string>
+    <string name="title_contact_cancel">取消</string>
+    <string name="title_contact_debug">DEBUG:</string>
+    <string name="image_choice">選擇圖片方式</string>
+    <string name="image_choice_album">相簿</string>
+    <string name="image_choice_camera">拍照</string>
+    <string name="contact_setup_complete">完成!</string>
+    <string name="contact_setup_missing">還有資料未填寫</string>
+    <string name="contact_no_person">沒有聯絡人</string>
+    <string name="contact_no_persons">目前沒有聯絡人</string>
+    <string name="quick_call">快速撥號</string>
+    <string name="quick_message">快速短訊</string>
+    <string name="send_message_to">發訊息給…</string>
+    <string name="are_you_sure_send_message_to">你確定要發訊息嗎?</string>
+    <string name="send">發送</string>
+    <string name="activity">事項</string>
+    <string name="sec_after_recall">秒後重撥給</string>
+    <string name="cancel_recall">取消重撥</string>
+    <string name="auto_recall_to">自動重撥給</string>
+    <string name="title_recall">重撥計時器</string>
+
+    <!-- Quick message string -->
+    <string name="hospital">去醫院</string>
+    <string name="community_center">去社區中心</string>
+    <string name="nursing_home">去老人院</string>
+    <string name="restaurant">去酒樓</string>
+    <string name="supermarket">去超市</string>
+
+    <string name="daily_necessities">買日用品</string>
+    <string name="medicines">買藥</string>
+    <string name="mask">買口罩</string>
+    <string name="clothes">買衣服</string>
+    <string name="food">買餸菜</string>
+
+    <string name="lost">我迷路了</string>
+    <string name="property">我唔見財物</string>
+    <string name="injured">我受傷了</string>
+
+    <!-- Notification Fragment : Fall Detection -->
+    <string name="title_accelerometer_status">感應器狀態:</string>
+    <string name="title_accelerometer_x">X軸:&#160;</string>
+    <string name="title_accelerometer_y">Y軸:&#160;</string>
+    <string name="title_accelerometer_z">Z軸:&#160;</string>
+    <string name="title_accelerometer_sum">總和:&#160;</string>
+    <string name="title_accelerometer_lat">緯度:&#160;</string>
+    <string name="title_accelerometer_lng">經度:&#160;</string>
+    <string name="title_accelerometer_address">現時所在位置:&#160;</string>
+    <string name="title_notification_switch">跌倒檢測開關</string>
+    <string name="notification_switch_off">Off</string>
+    <string name="notification_switch_on">On</string>
+    <string name="title_caretaker_set">設定緊急聯絡人</string>
+    <string name="title_caretaker_show">顯示緊急聯絡人</string>
+    <string name="sensor_default_value">0.0</string>
+    <string name="sensor_null_value">NULL</string>
+    <string name="alert_start_message">警報開始</string>
+    <string name="alert_stop_message">警報已停止</string>
+    <string name="delete_caretaker_confirm_message">你確定嗎？</string>
+    <string name="add_caretaker_empty_name_message">緊急聯絡人名稱不能留空</string>
+    <string name="add_caretaker_empty_phone_message">緊急聯絡人電話不能留空</string>
+    <string name="add_caretaker_success_message">已新增新的緊急聯絡人</string>
+    <string name="add_caretaker_error_message">糟糕！出問題了！</string>
+    <string name="notification_fall_detected_message">檢測到跌倒</string>
+    <string name="notification_timer_confirm_message">確認</string>
+    <string name="notification_timer_cancel">取消</string>
+    <string name="notification_timer_message">發送消息的時間倒數:</string>
+    <string name="title_add_caretaker_name">名稱:</string>
+    <string name="title_add_caretaker_phone">電話:</string>
+    <string name="title_add_caretaker_save">✔ 儲存</string>
+    <string name="title_list_caretaker_empty">找不到任何緊急聯絡人資料</string>
+    <string name="title_list_caretaker_delete">❌ 刪除</string>
+    <string name="notification_sms_permission_accept">已授權SMS服務，短信已發送</string>
+    <string name="notification_sms_permission_decline">沒有授權的短信許可，請先授權</string>
+    <string name="notification_sms_message1">短信發件人（</string>
+    <string name="notification_sms_message2">）可能已經發生跌倒意外，請單擊鏈接以查看可能的位置： https://maps.google.com/?q=</string>
+    <string name="notification_sms_success">短信發送成功</string>
+    <string name="notification_sms_no_phone">沒有緊急聯絡人</string>
+    <string name="notification_sms_no_phone_message">未有設定緊急聯絡人</string>
+    <string name="notification_location_on">開啟位置</string>
+
+    <string name="notification_sms_message">短信發件人可能已跌倒，請單擊鏈接以查看可能的位置： https://maps.google.com/?q=</string>
+</resources>

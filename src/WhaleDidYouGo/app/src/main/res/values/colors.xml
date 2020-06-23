@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Original Color -->
+    <color name="colorPrimary_original">#008577</color>
+    <color name="colorPrimaryDark_original">#00574B</color>
+    <color name="colorAccent_Original">#D81B60</color>
+
+    <!-- AppTheme -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#656565</color>
+    <color name="colorSecondary">#5262BC</color>
+    <color name="colorThird">#8591D0</color>
+    <color name="colorFourth">#6371C2</color>
+    <color name="colorBackground">#F6F9FC</color>
+
+    <!-- SplashScreen Activity -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#C4C4C4</color>
+    <color name="dark_gray">#3F3F3F</color>
+    <color name="dark_gray_status">#2A2A2A</color>
+</resources>
