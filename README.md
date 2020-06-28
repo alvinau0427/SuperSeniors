@@ -21,6 +21,11 @@
 
 - For more information of the project details, please browse the project report or powerpoint in `doc`
 
+## Installation
+
+### Setup
+Please follow the steps from `installation_guide.pdf` in `doc`
+
 ## Screenshots
 | Login Page     | Multi Language   |
 | :-------------: | :-------------: |
@@ -37,11 +42,6 @@
 | Fall Detection Page    | Detected Fall Action   |
 | :-------------: | :-------------: |
 | ![Fall Detection Page](./demo/img_fall_detection.png) | ![Detected Fall Action](./demo/img_fall_timer.png) |
-
-## Installation
-
-### Setup
-Please follow the steps from `installation_guide.pdf` in `doc`
 
 ## Demonstration
 - For more information of the project demonstration, please click [here](https://youtu.be/TJ6ovmJW0uA) to watch the following video.
