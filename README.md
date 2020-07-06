@@ -2,7 +2,7 @@
 
 > The Open University of Hong Kong 2019/20 Final Year Project
 
-> Android Application: Elderly Mobile Life Assistant for family with Extra Peace of Mind
+> Android Application: Elderly Mobile Life Assistant for Family with Extra Peace of Mind
 
 [![Build Status](https://travis-ci.com/alvinau0427/SuperSeniors.svg?branch=master)](https://travis-ci.org/alvinau0427/SuperSeniors)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
