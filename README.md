@@ -45,6 +45,7 @@ Please follow the steps from `installation_guide.pdf` in `doc`
 
 ## Demonstration
 - For more information of the project demonstration, please click [here](https://youtu.be/TJ6ovmJW0uA) to watch the following video.
+
 [![Demonstration](https://img.youtube.com/vi/TJ6ovmJW0uA/hqdefault.jpg)](https://youtu.be/TJ6ovmJW0uA)
 
 ## License
