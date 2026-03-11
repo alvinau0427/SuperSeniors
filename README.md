@@ -1,30 +1,42 @@
 # ![Logo](./demo/img_logo.png) SuperSeniors
 
-> The Open University of Hong Kong 2019/20 Final Year Project
+> **The Open University of Hong Kong 2019/20 Final Year Project**
+> 
+> **Elderly Mobile Life Assistant:** A safety-centric Android ecosystem providing real-time fall detection, GPS monitoring, and simplified family communication for extra peace of mind.
 
-> Android Application: Elderly Mobile Life Assistant for Family with Extra Peace of Mind
+[![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)](#) &nbsp;
+[![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white)](#) &nbsp;
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) &nbsp;
 
-[![Build Status](https://travis-ci.com/alvinau0427/SuperSeniors.svg?branch=master)](https://travis-ci.org/alvinau0427/SuperSeniors)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+## Project Mission
+**SuperSeniors** was born from a critical need: ensuring the safety of the elderly in a rapidly aging society. This project focuses on minimizing response time during emergencies by bridging the gap between fall detection and family navigation.
 
-## Getting Started
-- This project aims to integrate the functions with a simple user interface that can focus on the problem of elderly safety. In addition to the basic functions of fall detection GPS monitoring for an easy way to alert the users with family members during an occurrence, the information such as the instant message of notification and the single-touch dialing for connecting the elderly with their family members are also important to them because they want to get the latest status for providing help for their family members. In the case of an elderly facing accident like a slip and has life-threatening, the family members need to know the location of the elderly. And it gave the original aim of GPS supported navigation system is to guide the family members to reach their destinations when they receive the emergency notice from their elderly member, it seems imperative to include the above-mentioned real-time information. Of course, the application will provide some simple functions for helping the elderly to use this application such as the event calendar with the daily to-do list features.
+### Core Focus Areas
+1. **Safety First:** Robust fall detection algorithm with zero-latency alert triggers.
+2. **Instant Navigation:** Direct GPS routing to the elderly member's exact location.
+3. **Accessibility:** An intuitive, high-contrast UI tailored for seniors with simplified touch interactions.
 
-## Features
-- User Authentication (Google Login by Firebase)
-- Multi-language (Engligh and Traditioal Chinese)
-- Daily Calendar (Connect with Google API)
-- Quick Contact
-	- Single Touch Dialing (Keep dialing when the other party does not answer)
-	- Instant Messages (By SMS with some option button)
-- Fall Detection with GPS Monitoring (Ringtone Alert with timer when detected fall action, send SMS to emergency contact list with current location by Google Map after timeout, keep detecting when the application have been killed)
+## Key Features
+### Emergency & Safety
+* **Fall Detection System:** * Real-time monitoring using accelerometer data.
+    * Visual & Auditory countdown alert when a fall is detected.
+    * Automatic SMS broadcasting with **Google Maps** coordinates to emergency contacts upon timeout.
+    * **High Availability:** Background service persists even if the application is closed.
+* **GPS Monitoring:** Continuous location tracking during emergency states to guide family members.
 
-- For more information of the project details, please browse the project report or powerpoint in `doc`
+### Smart Communication
+* **Single-Touch Dialing:** Automated persistent dialing logic to ensure connection with family members.
+* **One-Tap Instant Messages:** Pre-set SMS templates for quick status updates (e.g., "I'm safe", "Need help").
 
-## Installation
+### Daily Living Assistant
+* **Google Calendar Integration:** Syncs daily to-do lists and medical appointments via Google API.
+* **Social Authentication:** Secure and easy login via **Firebase Google Auth**.
+* **Localized Support:** Fully supports English and Traditional Chinese (繁體中文).
 
-### Setup
-Please follow the steps from `installation_guide.pdf` in `doc`
+## Installation & Setup
+Please refer to the detailed **Installation Guide** for environment configuration and API key setup.
+* **Installation Guide:** `doc/installation_guide.pdf`
+* **Project Documentation:** See `/doc` for the full Final Report and Presentation.
 
 ## Screenshots
 | Login Page     | Multi Language   |
